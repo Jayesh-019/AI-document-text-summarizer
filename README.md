@@ -1,2 +1,6 @@
 # AI-document-text-summarizer
-AI-powered text summarization web application built using FastAPI and Hugging Face Transformers.  
+A web app built with HTML, CSS, JavaScript, FastAPI, and a Hugging Face summarization model.
+
+## Run backend
+uvicorn backend.app.main:app --reload
+
