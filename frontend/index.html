@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document Summarizer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Document Summarizer</h1>
+    <p>Paste text or upload a TXT/PDF file and get a summary.</p>
+
+    <section class="card">
+      <textarea id="textInput" placeholder="Paste your text here..."></textarea>
+      <button id="textButton">Summarize Text</button>
+    </section>
+
+    <section class="card">
+      <input type="file" id="fileInput" accept=".txt,.pdf" />
+      <button id="fileButton">Summarize File</button>
+    </section>
+
+    <section class="card">
+      <h2>Summary</h2>
+      <div id="result">Your summary will appear here.</div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
