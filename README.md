@@ -24,4 +24,4 @@ A simple web application that summarizes pasted text and uploaded documents usin
 ## Author
 
 Built as a learning project using FastAPI and Hugging Face Transformers.
-```
+
